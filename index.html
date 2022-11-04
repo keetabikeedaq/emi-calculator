@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <!--
+      Need a visual blank slate?
+      Remove all code in `styles.css`!
+    -->
+    <link rel="stylesheet" href="style.css" />
+    <script  src="script.js"></script>
+  </head>
+  <body>
+    <div id="LoanContainer">
+      <h1>Loan EMI calculator</h1>
+    <input type="number" placeholder="Enter the loan amount" id="princi" /><br>
+    
+    <input type="number" placeholder="Enter the loan tenure in years"id="yR" /><br>
+    <input type="number" placeholder="Enter Interest Rate(%P.A.)" id="iR" /><br>
+
+    
+    <button onclick="LoanCalculator()"id="lB">Calculate Loan</button>
+  </body>
+</html>

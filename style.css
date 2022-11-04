@@ -1,0 +1,72 @@
+.text-gradient {
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+  color: darkblue;
+}
+@supports (--css: variables) {
+  .text-gradient {
+    background: linear-gradient(to right, pink, darkorchid, coral 70%);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+  }
+}
+
+#princi {
+  height: 30px;
+  border: 1px solid red;
+  border-radius: 2px;
+  padding: 3px;
+  margin-left: 5px;
+}
+
+#yR {
+  height: 30px;
+  border: 1px solid red;
+  border-radius: 2px;
+  padding: 3px;
+  margin-left: 5px;
+}
+#iR {
+  height: 30px;
+  border: 1px solid red;
+  border-radius: 2px;
+  padding: 3px;
+  margin-left: 5px;
+}
+
+#lB {
+  height: 38px;
+  width: 280px;
+  border: 1px solid red;
+  border-radius: 2px;
+  padding: 1px;
+  margin-left: 2px;
+}
+
+#LoanContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+}
+
+@media only screen and (max-width: 500px) {
+  #LoanContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  #princi,
+  #yR {
+    margin-bottom: 10px;
+    width: 300px;
+    margin-left: 10px;
+  }
+}
+
+img{
+  width:100%;
+  height:auto;
+}
